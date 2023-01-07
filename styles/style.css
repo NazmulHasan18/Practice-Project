@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url(../images/donation1c.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    color: wheat;
+    text-align: center;
+    padding-top: 250px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.head-title {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.head-description {
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.primary-btn {
+    margin-top: 50px;
+    background-color: #fd3961;
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+/* here star main section */
+section {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.donate-today {
+    margin: 0 400px;
+    text-align: center;
+}
+
+.primary-title {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.dt-description {
+    font-size: 28px;
+    color: #6b6161;
+    text-align: center;
+    max-width: 1100px;
+}
+
+.donate {
+    display: flex;
+}
+
+.donate-selection {
+    color: #6b6161;
+    gap: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 50px 40px;
+    margin: 30px 20px;
+    background: #ebe9e9;
+    /* box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06); */
+    border-radius: 5px;
+}
+
+.other-donate {
+    font-size: 30px;
+    color: #bdbaba;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.donate-plan {
+    margin: 0 200px;
+}
+
+.donate-plan-sub {
+    display: flex;
+    text-align: left;
+    gap: 30px;
+    padding: 70px 40px;
+}
+
+.donate-plan-sub img {
+    height: 80px;
+    width: 80px;
+}
+
+.donate-plan-sub h3 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.donate-plan-sub p {
+    font-size: 25px;
+    color: #6b6161;
+}
+
+.contribution {
+    display: flex;
+    margin: 0 200px;
+    gap: 80px;
+    text-align: left;
+}
+
+.contribution img {
+    height: 600px;
+    width: 700px;
+}
+
+.my-update {
+    margin: 0 400px;
+}
+
+.my-update-form {
+    padding: 50px 100px 100px;
+    background: #fce9ed;
+}
+
+.my-update-form {
+    display: flex;
+
+}
+
+.email {
+    border: 0;
+    height: 72px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 25px;
+    padding-left: 25px;
+    background: #b3b3b3;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+footer {
+    background: #100f2c;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+footer h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    color: #f387dc;
+    padding-top: 50px;
+}
+
+footer p {
+    font-size: 25px;
+    color: #ffcbcb;
+}
